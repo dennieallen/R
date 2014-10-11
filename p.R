@@ -1,6 +1,6 @@
 p = function(N) {
   # dennie allen "Sat Aug  9 21:40:36 2014"
-  # calc # of partitons of sums of N by 10's
+  # calc partitons of N by 10's using the Hardy-Ramanujan formula
   # inspired by Ken Ono, Emory U, 'New Theories Reveal the Nature of Numbers'
   df = data.frame(n = seq(0, N, by = 10))
   P = data.frame()
